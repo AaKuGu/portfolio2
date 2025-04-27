@@ -6,12 +6,31 @@ import Link from "next/link";
 // Sample Project Data
 export const projects = [
   {
+    id: "wba",
+    name: "Website Builder App",
+    description:
+      "A no-code Website Builder App that lets users create responsive, professional websites with drag-and-drop ease. Designed to save time, cut costs, and empower anyone — from entrepreneurs to small businesses — to launch a stunning online presence effortlessly.",
+    image_path: "/images/salesPage.png",
+    deployed_url: "https://pizzajoint-eight.vercel.app/",
+    github_url: "https://github.com/AaKuGu/pizzajoint",
+    category: ["react"],
+    key_techs: [
+      "Next Js",
+      "React Js",
+      "Express Js",
+      "TailwindCss",
+      "NextAuth",
+      "MongoDB",
+      "Zustand",
+    ],
+  },
+  {
     id: "cla",
     name: "Course Launcher App (My Productify)",
     description:
       "This is a WebApp which helps people launch their course pages online as their own personal site. User can add custom domain, and connect their favourite email autoresponder etc",
     image_path: "/images/courseLauncherAppImage.webp",
-    deployed_url: "",
+    deployed_url: "https://myproductify.site",
     github_url: "",
     category: ["fullStack", "react"],
     key_techs: [
@@ -23,25 +42,14 @@ export const projects = [
       "Zustand",
     ],
   },
-  // {
-  //   id: "wba",
-  //   name: "Website Builder App",
-  //   description:
-  //     "This project is mainly focused on Framer-Motion library (A library that creates beautiful animations for our application). Just the React JS was enough to create such a thing.",
-  //   image_path: "/images/courseLauncherAppImage.webp",
-  //   deployed_url: "https://pizzajoint-eight.vercel.app/",
-  //   github_url: "https://github.com/AaKuGu/pizzajoint",
-  //   category: ["react"],
-  //   key_techs: ["React", "TailwindCss", "Framer Motion"],
-  // },
   {
     id: "sp",
     name: "Sales Page (My Productify)",
     description:
       "This is the sales page for my Course Page Launcher app. High Converting Sales page made using Next js (SSG) feature for quick loading",
     image_path: "/images/salesPage.png",
-    deployed_url: "https://pizzajoint-eight.vercel.app/",
-    github_url: "https://github.com/AaKuGu/pizzajoint",
+    deployed_url: "https://live.myproductify.site/",
+    github_url: "https://github.com/AaKuGu/myproductifySalespage",
     category: ["react"],
     key_techs: [
       "Next Js",
@@ -104,7 +112,7 @@ const Projects = () => {
                     href={`/projects/${project.id}`}
                     className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all"
                   >
-                    Learn More
+                    Get More Info
                   </Link>
                   {project.deployed_url && (
                     <a
