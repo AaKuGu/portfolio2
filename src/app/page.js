@@ -5,7 +5,7 @@ import { FaUserAstronaut } from "react-icons/fa";
 
 const page = () => {
   return (
-    <div className="flex flex-col gap-8 p-3 md:p-10 w-full h-full text-white ">
+    <div className="flex flex-col gap-8 p-3 md:p-5 w-full h-full text-white ">
       {/* Main Heading */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
