@@ -7,7 +7,7 @@ import Link from "next/link";
 export const projects = [
   {
     id: "cla",
-    name: "Course Launcher App",
+    name: "Course Launcher App (My Productify)",
     description:
       "This is a WebApp which helps people launch their course pages online as their own personal site. User can add custom domain, and connect their favourite email autoresponder etc",
     image_path: "/images/courseLauncherAppImage.webp",
@@ -36,7 +36,7 @@ export const projects = [
   // },
   {
     id: "sp",
-    name: "My Course Launcher App (My Productify)",
+    name: "Sales Page (My Productify)",
     description:
       "This is the sales page for my Course Page Launcher app. High Converting Sales page made using Next js (SSG) feature for quick loading",
     image_path: "/images/salesPage.png",
@@ -100,10 +100,11 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="mt-6 flex justify-between">
-                  <Link href={`/projects/${project.id}`}>
-                    <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all">
-                      Learn More
-                    </button>
+                  <Link
+                    href={`/projects/${project.id}`}
+                    className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all"
+                  >
+                    Learn More
                   </Link>
                   {project.deployed_url && (
                     <a

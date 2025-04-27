@@ -2,7 +2,8 @@
 
 import React from "react";
 import { useRouter } from "next/navigation";
-
+import Link from "next/link";
+import { IoMdArrowRoundBack } from "react-icons/io";
 const data = [
   {
     id: "cla",
@@ -78,12 +79,14 @@ const ProjectDetails = ({ params }) => {
 
       {/* Back Button */}
       <div className="flex justify-center mt-6">
-        <button
+        <Link
+          href={`/projects`}
           onClick={() => router.back()}
-          className="bg-gradient-to-r from-blue-500 to-green-500 hover:from-green-500 hover:to-blue-500 text-white px-6 py-3 rounded-full shadow-lg transition-all duration-300"
+          className="bg-gradient-to-r from-blue-500 to-green-500 hover:from-green-500 hover:to-blue-500 text-white px-4 py-1 rounded-sm shadow-lg transition-all duration-300 text-lg flex items-center justify-center gap-3"
         >
+          <IoMdArrowRoundBack />
           Back
-        </button>
+        </Link>
       </div>
     </div>
   );
