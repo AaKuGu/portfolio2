@@ -23,14 +23,14 @@ const data = [
     description:
       "This Sales Page builder enables users to create stunning, high-converting sales pages quickly, solving the problem of expensive landing page tools.",
   },
-  // {
-  //   id: "wba",
-  //   label: "Website Builder App",
-  //   demoVideoUrl: "",
-  //   proofVideoUrl: "",
-  //   description:
-  //     "The Website Builder App empowers users to effortlessly create stunning, responsive websites without writing a single line of code. With a drag-and-drop interface, pre-designed templates, and powerful customization options, it eliminates the complexity of traditional web development. This app solves the real-world problem of expensive and time-consuming website creation, making it accessible for entrepreneurs, freelancers, and small businesses to establish their online presence quickly and affordably. Designed with user experience in mind, it bridges the gap between technical expertise and creative vision.",
-  // },
+  {
+    id: "wba",
+    label: "Website Builder App",
+    // demoVideoUrl: "",
+    // proofVideoUrl: "",
+    description:
+      "The Website Builder App empowers users to effortlessly create stunning, responsive websites without writing a single line of code. With a drag-and-drop interface, pre-designed templates, and powerful customization options, it eliminates the complexity of traditional web development. This app solves the real-world problem of expensive and time-consuming website creation, making it accessible for entrepreneurs, freelancers, and small businesses to establish their online presence quickly and affordably. Designed with user experience in mind, it bridges the gap between technical expertise and creative vision.",
+  },
 ];
 
 const ProjectDetails = ({ params }) => {
