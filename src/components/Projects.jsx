@@ -40,25 +40,25 @@ export const projects = [
       "Framer Motion",
     ],
   },
-  {
-    id: "wba",
-    name: "Website Builder App",
-    description:
-      "A no-code Website Builder App that lets users create responsive, professional websites with drag-and-drop ease. Designed to save time, cut costs, and empower anyone — from entrepreneurs to small businesses — to launch a stunning online presence effortlessly.",
-    image_path: "/images/wba.jpg",
-    deployed_url: "",
-    github_url: "",
-    category: ["react"],
-    key_techs: [
-      "Next Js",
-      "React Js",
-      "Express Js",
-      "TailwindCss",
-      "NextAuth",
-      "MongoDB",
-      "Zustand",
-    ],
-  },
+  // {
+  //   id: "wba",
+  //   name: "Website Builder App",
+  //   description:
+  //     "A no-code Website Builder App that lets users create responsive, professional websites with drag-and-drop ease. Designed to save time, cut costs, and empower anyone — from entrepreneurs to small businesses — to launch a stunning online presence effortlessly.",
+  //   image_path: "/images/wba.jpg",
+  //   deployed_url: "",
+  //   github_url: "",
+  //   category: ["react"],
+  //   key_techs: [
+  //     "Next Js",
+  //     "React Js",
+  //     "Express Js",
+  //     "TailwindCss",
+  //     "NextAuth",
+  //     "MongoDB",
+  //     "Zustand",
+  //   ],
+  // },
 ];
 
 const fadeInUp = {
