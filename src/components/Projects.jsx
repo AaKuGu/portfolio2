@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 
 // Sample Project Data
@@ -10,7 +11,7 @@ export const projects = [
     name: "Website Builder App",
     description:
       "A no-code Website Builder App that lets users create responsive, professional websites with drag-and-drop ease. Designed to save time, cut costs, and empower anyone — from entrepreneurs to small businesses — to launch a stunning online presence effortlessly.",
-    image_path: "/images/salesPage.png",
+    image_path: "/images/wba.jpg",
     deployed_url: "https://pizzajoint-eight.vercel.app/",
     github_url: "https://github.com/AaKuGu/pizzajoint",
     category: ["react"],
@@ -85,10 +86,12 @@ const Projects = () => {
               className="max-w-sm rounded-lg shadow-lg bg-white dark:bg-dark-300 overflow-hidden"
               id={project.id}
             >
-              <img
+              <Image
+              width={400}
+              height={250}
                 src={project.image_path}
                 alt={project.name}
-                className="w-full h-48 object-cover"
+                className=" object-cover"
               />
               <div className="p-6">
                 <h5 className="text-xl font-semibold text-gray-800 ">
