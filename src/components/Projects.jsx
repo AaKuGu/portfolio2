@@ -4,27 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
-// Sample Project Data
 export const projects = [
-  {
-    id: "wba",
-    name: "Website Builder App",
-    description:
-      "A no-code Website Builder App that lets users create responsive, professional websites with drag-and-drop ease. Designed to save time, cut costs, and empower anyone — from entrepreneurs to small businesses — to launch a stunning online presence effortlessly.",
-    image_path: "/images/wba.jpg",
-    deployed_url: "https://pizzajoint-eight.vercel.app/",
-    github_url: "https://github.com/AaKuGu/pizzajoint",
-    category: ["react"],
-    key_techs: [
-      "Next Js",
-      "React Js",
-      "Express Js",
-      "TailwindCss",
-      "NextAuth",
-      "MongoDB",
-      "Zustand",
-    ],
-  },
   {
     id: "cla",
     name: "Course Launcher App (My Productify)",
@@ -60,6 +40,25 @@ export const projects = [
       "Framer Motion",
     ],
   },
+  {
+    id: "wba",
+    name: "Website Builder App",
+    description:
+      "A no-code Website Builder App that lets users create responsive, professional websites with drag-and-drop ease. Designed to save time, cut costs, and empower anyone — from entrepreneurs to small businesses — to launch a stunning online presence effortlessly.",
+    image_path: "/images/wba.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["react"],
+    key_techs: [
+      "Next Js",
+      "React Js",
+      "Express Js",
+      "TailwindCss",
+      "NextAuth",
+      "MongoDB",
+      "Zustand",
+    ],
+  },
 ];
 
 const fadeInUp = {
@@ -87,8 +86,8 @@ const Projects = () => {
               id={project.id}
             >
               <Image
-              width={400}
-              height={250}
+                width={400}
+                height={250}
                 src={project.image_path}
                 alt={project.name}
                 className=" object-cover"
