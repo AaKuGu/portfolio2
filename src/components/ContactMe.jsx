@@ -39,7 +39,7 @@ const ContactUs = () => {
                   href="mailto:prathamtogupta11@gmail.com"
                   className="text-blue-600 hover:text-blue-700"
                 >
-                  prathamtogupta11@gmail.com
+                  reviewerhiphanviral@gmail.com
                 </a>
               </p>
             </motion.div>
