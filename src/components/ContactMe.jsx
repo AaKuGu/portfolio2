@@ -11,10 +11,6 @@ const ContactUs = () => {
   return (
     <div className="p-3 bg-gradient-to-r ">
       <motion.div variants={fadeInUp} initial="initial" animate="animate">
-        <h5 className="text-3xl font-bold text-center text-white mb-6">
-          Contact Me
-        </h5>
-
         <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-4">
           <h6 className="text-2xl font-semibold text-gray-800  mb-1">
             Get in Touch

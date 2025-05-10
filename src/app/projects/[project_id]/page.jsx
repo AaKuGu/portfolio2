@@ -86,7 +86,7 @@ const ProjectDetails = ({ params }) => {
   }
 
   return (
-    <div className="flex flex-col gap-8 p-4 md:p-8">
+    <div className="flex flex-col gap-8 p-4 md:p-8 text-black">
       {/* Proof Video */}
       <div className="aspect-w-16 aspect-h-9">
         <h2 className="text-2xl font-semibold mb-4">

@@ -65,9 +65,7 @@ const Skills = () => {
   return (
     <div className="">
       <motion.div variants={fadeInUp} initial="initial" animate="animate">
-        <h5 className="  text-3xl font-bold text-center text-blue-600">
-          Skills
-        </h5>
+      
 
         {/* Responsive grid layout */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 mt-3">

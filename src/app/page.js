@@ -13,9 +13,9 @@ const page = () => {
         transition={{ duration: 0.6 }}
         className="text-center"
       >
-        <h1 className="text-3xl md:text-5xl font-bold text-white  mb-3">
+        {/* <h1 className="text-xl md:text-3xl font-bold text-black  mb-3">
           About Me
-        </h1>
+        </h1> */}
         <p className="text-gray-600  text-sm md:text-lg max-w-2xl mx-auto">
           A glimpse into my journey, skills, and passion for technology!
         </p>

@@ -35,7 +35,7 @@ const Navbar = () => {
                 whileTap={{ scale: 0.95 }}
                 className={`flex items-center gap-2 cursor-pointer px-4 py-2 rounded-full text-sm md:text-base font-medium transition-all duration-300 ${
                   isActive
-                    ? "bg-gradient-to-r from-blue-500 to-green-500 text-white shadow-lg"
+                    ? "bg-gradient-to-r from-blue-700 to-green-900 text-white shadow-lg"
                     : "text-gray-700 hover:bg-gray-200 dark:hover:bg-dark-300"
                 }`}
               >

@@ -17,9 +17,11 @@ const Education = () => {
         animate="animate"
         className="mb-12"
       >
-        <h5 className="my-3 text-3xl font-bold text-center text-blue-600">
-          Education
-        </h5>
+        {/* <div className="flex items-center gap-2 text-2xl font-semibold text-center w-full  justify-center">
+          <span className="bg-gradient-to-r from-blue-800 to-green-900 bg-clip-text text-transparent font-kaushan">
+            Education
+          </span>
+        </div> */}
 
         <div className="mb-8">
           <h5 className="text-xl font-semibold text-green-600">
@@ -51,13 +53,11 @@ const Education = () => {
           </p>
           <p>8 CGPA</p>
         </div>
-
-       
       </motion.div>
 
       {/* Experience Section */}
       <motion.div variants={fadeInUp} initial="initial" animate="animate">
-        <h5 className="my-3 text-3xl font-bold text-center text-blue-600">
+        <h5 className="my-3 text-3xl font-bold text-center text-black">
           Experience
         </h5>
 

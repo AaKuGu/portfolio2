@@ -70,9 +70,7 @@ const Projects = () => {
   return (
     <div className="" id="projects">
       <motion.div variants={fadeInUp} initial="initial" animate="animate">
-        <h5 className="my-3 text-3xl font-bold text-center text-blue-600">
-          Projects
-        </h5>
+       
 
         {/* Projects Cards */}
         <div className="flex items-center justify-start gap-3 flex-wrap">
