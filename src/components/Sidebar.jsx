@@ -29,7 +29,7 @@ const Sidebar = () => {
       </motion.div>
 
       {/* Name */}
-      <div className="flex items-center gap-2 text-2xl font-semibold">
+      <div className="flex items-center gap-2 text-2xl font-bold">
         <span className="bg-gradient-to-r from-blue-800 to-green-900 bg-clip-text text-transparent font-kaushan">
           Aadarsh
         </span>

@@ -27,7 +27,7 @@ const Education = () => {
           <h5 className="text-xl font-semibold text-green-600">
             Bachelor of Technology (Hons.) - Computer Science Engineering
           </h5>
-          <p className="font-semibold text-gray-300">
+          <p className="font-semibold text-black">
             Lovely Professional University | 2020 - 2024
           </p>
           <p className="mt-2 text-gray-500">
@@ -42,7 +42,7 @@ const Education = () => {
           <h5 className="text-xl font-semibold text-green-600">
             Senior Secondary (Class 12th) - Science Stream
           </h5>
-          <p className="font-semibold text-gray-300">
+          <p className="font-semibold text-black">
             Sunbeam School | 2018 - 2020
           </p>
           <p className="mt-2 text-gray-500">
@@ -65,7 +65,7 @@ const Education = () => {
           <h5 className="text-xl font-semibold text-green-600">
             Full Stack Developer (Personal Projects)
           </h5>
-          <p className="font-semibold text-gray-300">August 2022 – Present</p>
+          <p className="font-semibold text-black">August 2022 – Present</p>
           <p className="mt-2 text-gray-500">
             Developed multiple Full Stack applications utilizing the MERN stack
             and Next.js. Built major projects like a Course Launching Platform
